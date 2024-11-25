@@ -119,9 +119,11 @@ public class LoginController {
     }
 
     private String getPassword() {
-        if (shownPasswordTextField.isVisible()) {
+        if (hiddenPassTField.isVisible()) {
             return hiddenPassTField.getText();
-        } else {
+        } else if (!hiddenPassTField.isVisible()) {
+            return shownPasswordTextField.getText();
+        }else{
             return hiddenPassTField.getText();
         }
     }

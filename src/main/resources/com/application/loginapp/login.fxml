@@ -16,14 +16,14 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="loginAnchorPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="785.0" prefWidth="1250.0" scaleShape="false" style="-fx-background-color: linear-gradient(to bottom, #131515 0%, #1F211F 64.75%, #2B2C28 100%);" stylesheets="@loginStyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.loginapp.LoginController">
+<AnchorPane fx:id="loginAnchorPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="785.0" prefWidth="1250.0" scaleShape="false" style="-fx-background-color: linear-gradient(to bottom, #131515 0%, #1F211F 64.75%, #2B2C28 100%);" stylesheets="@loginStyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.loginapp.LoginController" >
    <padding>
       <Insets left="44.0" right="44.0" />
    </padding>
    <children>
       <ImageView fitHeight="785.0" fitWidth="1326.0" layoutX="-1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Rectangle%20203.png" />
+            <Image url="@Rectangle_203.png" />
          </image>
       </ImageView>
       <AnchorPane fx:id="loginAPaneSmall" focusTraversable="true" layoutX="319.0" layoutY="140.0" prefHeight="498.0" prefWidth="614.0" style="-fx-background-color: #FFFAFB; -fx-background-radius: 10px;">
@@ -54,7 +54,7 @@
                   <Font name="Segoe UI Semilight" size="20.0" />
                </font>
             </Text>
-            <TextField fx:id="shownPasswordTextField" layoutX="50.0" layoutY="301.0" prefHeight="48.0" prefWidth="514.0" style="-fx-background-radius: 8px;">
+            <TextField fx:id="shownPasswordTextField" layoutX="50.0" layoutY="301.0" prefHeight="48.0" prefWidth="514.0" style="-fx-background-radius: 8px;" visible="false">
                <opaqueInsets>
                   <Insets right="40.0" />
                </opaqueInsets>
