@@ -10,15 +10,18 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("login.fxml"));
         AnchorPane root = loader.load();
         LoginController controller = loader.getController();
 
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
+        primaryStage.setTitle("TechTix");
         primaryStage.show();
     }
+
 
 
     public static void main(String[] args) {
