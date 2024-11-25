@@ -93,10 +93,10 @@ public class LoginController {
 
         if (isPasswordHidden) {
             shownPasswordTextField.setText(hiddenPassTField.getText());
-            eyeStatus.setImage(new Image(getClass().getResourceAsStream("eye_open.png")));
+            eyeStatus.setImage(new Image(getClass().getResourceAsStream("eye_close.png")));
         } else {
             hiddenPassTField.setText(shownPasswordTextField.getText());
-            eyeStatus.setImage(new Image(getClass().getResourceAsStream("eye_close.png")));
+            eyeStatus.setImage(new Image(getClass().getResourceAsStream("eye_open.png")));
         }
     }
 

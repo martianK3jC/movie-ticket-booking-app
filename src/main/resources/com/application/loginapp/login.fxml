@@ -21,7 +21,7 @@
       <Insets left="44.0" right="44.0" />
    </padding>
    <children>
-      <ImageView fitHeight="785.0" fitWidth="1326.0" layoutX="3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="785.0" fitWidth="1326.0" layoutX="-1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Rectangle%20203.png" />
          </image>
@@ -74,7 +74,7 @@
             </PasswordField>
             <ImageView fx:id="eyeStatus" fitHeight="38.0" fitWidth="38.0" layoutX="518.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@eye_close.png" />
+                  <Image url="@eye_open.png" />
                </image>
             </ImageView>
             <ToggleButton fx:id="showPasswordBtn" layoutX="510.0" layoutY="301.0" mnemonicParsing="false" onAction="#changeVisibility" opacity="0.0" prefHeight="48.0" prefWidth="53.0" />
