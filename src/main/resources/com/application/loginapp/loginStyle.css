@@ -1,0 +1,94 @@
+#loginAnchorPage{
+    -fx-background-color: linear-gradient(to bottom, #131515 0%, #1F211F 64.75%, #2B2C28 100%);
+}
+
+#loginAPaneSmall{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFAFB;
+}
+
+#loginToYourAccountText{
+    -fx-pref-height: 100;
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 36;
+    -fx-font-weight: 600;
+}
+
+#emailTextField {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 0 10 0 10;
+    -fx-fill: #5A5A5D;
+    -fx-effect: none;
+}
+
+#emailTextField:focused {
+    -fx-effect: dropshadow(gaussian, #339989, 10, 0.5, 0, 0);
+}
+
+
+
+#shownPasswordTextField{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 0 10 0 10;
+    -fx-fill: #5A5A5D;
+    -fx-effect: none;
+}
+
+#shownPasswordTextField:focused{
+    -fx-effect: dropshadow(gaussian, #339989, 10, 0.5, 0, 0);
+}
+
+#hiddenPassTField{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 0 10 0 10;
+
+    -fx-effect: none;
+}
+
+#hiddenPassTField:focused{
+    -fx-effect: dropshadow(gaussian, #339989, 10, 0.5, 0, 0);
+}
+
+
+#loginSuccessfullyBPane{
+    -fx-fill: #FFFAFB;
+    -fx-border-radius: 8px;
+}
+
+#registerLink {
+    -fx-border-width: 0;       /* Remove the border */
+    -fx-padding: 0;            /* Optional: Adjust padding */
+    -fx-focus-color: transparent; /* Remove focus highlight */
+    -fx-faint-focus-color: transparent; /* Remove faint focus highlight */
+    -fx-underline: true;       /* Keep underline for a hyperlink effect */
+}
+
+#registerLink:focused {
+    -fx-border-width: 0;       /* Ensure no border when focused */
+    -fx-underline: true;       /* Keep underline when focused */
+}
+
+
+#loginButton {
+    -fx-background-color: #339989; /* Default background color */
+    -fx-text-fill: white;          /* Text color */
+    -fx-padding: 10 20;            /* Adjust padding */
+    -fx-border-radius: 5;          /* Rounded corners */
+    -fx-background-radius: 5;      /* Match background radius */
+    -fx-cursor: hand;              /* Pointer cursor */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.2, 0, 0); /* Shadow */
+}
+
+#loginButton:focused {
+    -fx-background-color: #339989; /* Keep the same background color on focus */
+}
+
+#loginButton:pressed {
+    -fx-background-color: #83E9D8; /* Change background color when clicked */
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.2, 0, 1); /* Inner shadow for pressed effect */
+    -fx-text-fill: #FFFFFF; /* Ensure text remains visible */
+}
